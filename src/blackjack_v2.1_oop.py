@@ -16,11 +16,11 @@ class Bot:
         self.player=player
     def difficulty(self:Bot,string:str)->str:
         if string=="easy":
-            return "easy.csv"
+            return "src/easy.csv"
         elif string=="medium":
-            return "medium.csv"
+            return "src/medium.csv"
         elif string=="hard":
-            return "hard.csv"
+            return "src/hard.csv"
         else:
             raise ValueError
     def load_data(self:Bot,path:str)->tuple[list,list]:
