@@ -5,6 +5,8 @@ A desktop Blackjack-like application. Instead of using a simple bot with static 
 * Download the blackjack.exe in `blackjack/src/dist/` and run it. Depending on your current system, this might take some seconds. **This may lead to a conflict with antivirus software!!**
 <br>or<br>
 * Download the src-folder and run `py -m blackjack_v2_oop.py` in a command terminal inside the src folder
+<br>or<br>
+* click on this link for using it as a web-app: `https://blackjack-267ffbsdlf6hqeymwvhamq.streamlit.app/`
 
 ## Libraries used
 * random
